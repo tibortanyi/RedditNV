@@ -22,7 +22,7 @@ export default {
 
 	data: () =>({
 		//Only use a server to keep ClientID private
-		APIMainPoint: 'http://www.tibko.nhely.hu/imgurAPI.php?album_id=',
+		APIMainPoint: 'api/imgurAPI.php?album_id=',
 		currentImageNum: -1,
 		album: {},
 		apiTries: 0,
